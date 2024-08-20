@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos CSS -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+     <!-- Titulo Pagina -->
+    <title>Encriptador Alura Marcelo Yrala</title>
+</head>
+<body>
+<!-- INICIO CABECERA -->
+<Header>
+    <div class="header__logo">
+        <img src="./img/Logo.svg" alt="Logo Alura">
+    </div>
+</Header>
+<!-- FIN CABECERA -->
+
+ <!-- INICIO PRINCIPAL -->
+ <main>
+
+    <!-- INICIO SECCION IZQUIERDA -->
+
+<div class="seccion__izquierda">
+
+    <div class="seccion__izquierda-textarea">
+       <textarea class="izquierda__textarea" placeholder="Ingrese su texto aqui"></textarea>
+
+    </div>
+    <div class="seccion__izquierda-alerta">
+        <img class="alerta_img" src="./img/alerta.svg" alt="Simbolo de alerta">
+        <p class="alerta_text">Solo letras minúsculas y sin acentos</p>
+
+    </div>
+    <div class="seccion__izquierda-botones">
+        <input class="btn-encriptar" type="button" value="Encriptar">
+        <input class="btn-desencriptar" type="button" value="Desencriptar">
+    </div>
+</div>
+
+<!-- FIN SECCION IZQUIERDA -->
+
+<!-- INICIO SECCION DERECHA -->
+<div class="seccion__derecha">
+    <div class="seccion__derecha-imagen">
+        <img class="imagenNino" src="./img/Muñeco.svg" alt="Imagen de niño">
+
+    </div>
+    <div class="seccion__derecha-texto">
+<p class="texto-noencontrado">Ningún mensaje fue encontrado</p>
+    </div>
+    <div class="seccion__derecha-textoDesencriptar">
+<p class="texto-desencriptar">Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
+    <div class="seccion__derecha-boton"></div>
+    <input class="btn-copiar" type="button" value="Copiar">
+</div>
+
+<!-- FIN SECCION DERECHA -->
+
+ </main>
+<!-- FIN PRINCIPAL -->
+
+<!-- INICIO PIE DE PAGINA -->
+    <footer>
+        Desafio Encriptador Alura - Marcelo Yrala - 2024
+    </footer>
+ <!-- FIN PIE DE PAGINA -->
+  <script src="./script.js"></script>
+</body>
+</html>
